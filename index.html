@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website | 
+        Krish Chauhan</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/cf2c1df2ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---HOME DIV-------------------->
+    <header class="header">
+        <a href="#home-content" class="logo">Krishna.</a>
+
+        <nav class="navbar">
+            <a href="#home-content">Home</a>
+            <a href="#about-content">About</a>
+            <a href="#services-content">Services</a>
+            <a href="#contact-content">Contact</a>
+        </nav>
+    </header>
+
+    <div id="home-content"></div>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hello, I'm Krish Chauhan</h1>
+            <h3>Student at Kean University</h3>
+            <p>Motivated Computer Science student seeking an career opportunity to leverage skills in software development, data analysis, and machine learning. Committed to making a significant contribution to the success of the company.</p>
+            <br>
+            <div class="btn-box">
+                <a href="#contact-content">Let's Talk</a>
+            </div>
+    </div>
+        <img class = "MY_PHOTO" src="ME.jpg">
+    </section>
+<!--ABOUT DIV-------------->
+<div id="about-content">
+    <div class="about">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ME_4.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! My Name is Krish Chauhan and Welcome to my CyberSpace. Currently, I am a junior
+                    at Kean University, pursuing a bachelor's degree in Computer Science. I am skilled
+                    in both areas of frontend and backend development (Full Stack) and have previously and actively
+                    building websites for family owned companies and personal portfolios like this for other students.
+                    If you are more interested on my background, click the buttons below to see my skills and experience:
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span><br>Programming, UI and database skills (4 Years)</li>
+                        <li><span>Python</span><br>Develop AI and ML Models (3 years)</li>
+                        <li><span>HTML/CSS</span><br>Designing Web Applications (2 years)</li>
+                        <li><span>Excel</span><br>Made Spreadsheets for Data Analysis (5 years)</li>
+                        <li><span>SQL</span><br>Use for Data Analysis (1 year)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Data Entry Specialist / Transcriptionist</span><br>Performed Data Entry and Analysis as an individual contractor on Amazon Mechanical Turks. Have experience cleaning data on Excel and made an application recently on python to incorporate with my work to make data entry tasks easier to accomplish.</li>
+                        <li><span>Brain Tumor Detection</span><br>Made a Machine Learning Model utilizing Deep Learning Methods to predict whether a Brain MRI Scan input is Malignant or Bengin</li>
+                        <li><span>Game Developer</span><br>Developed a 3D style DOOM video game using PyGame feature in Python, utilizing the Raycasting method to accurately ensure the prroduct does not fail as the Field of View is set accordingly by the developer</li>
+                        <li><span>Great Minds In Stem Research</span><br>Performed Research in Great Mind of Stem, where we utilize real life given data from SA Oil and performed tasks required from the client</li>
+                        <li><span>Web Development</span><br>Utilizing my Fall Stack Development skills, I have tackled on more complex tasks where I develop a Web Application where the client had requirements that required me to use my skills for backend and frontend development. Additionally like this portfolio, I have developed multiple portfolio's in the past for students in my field.</li>
+                        <li><span>Software Testing</span><br>Performed Software Testing on an existing product utilizing my skills in Jacoco, Maven and Java (as it was written in Java).</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span><br>Kean University (BS. Computer Science)</li>
+                        <li><span>2017 - 2021</span><br>Old Bridge High School (High School Diploma)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Services DIV-->
+<div id="services-content">
+    <div class="services">
+       <h1>My Services</h1> 
+       <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>According to the clients request, I could develop a web application using full stack 
+                where I could accomplish the clients request.</p> 
+        </div>
+        <div>
+            <i class="fa-solid fa-robot"></i>
+            <h2>ML and AI Development</h2>
+            <p>According to the clients request, I could develop a machine learning algorithm or AI where I
+                could use deep learning models so the client desired accuracy or credentials are acheived.
+            </p> 
+        </div>
+        <div>
+            <i class="fa-solid fa-database"></i>
+            <h2>Data Analysis</h2>
+            <p>According to the clients request, I could perform data entry and or analyze existing data and give the client
+                my feedback on Excel and SQL.
+            </p> 
+        </div>
+        <div>
+            <i class="fa-solid fa-vial-circle-check"></i>
+            <h2>Software Testing</h2>
+            <p>According to the clients request, I could test an existing product and provide feedback to the client what looks good 
+                and what needs work in the code so it saves the client time and space complexity.</p> 
+        </div>
+       </div>
+    </div>
+</div>
+
+<!--Contact DIV---->
+<div id="contact-content">
+    <div class="contact">
+        <div class="row">
+            <div class="contact-left">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="sub-title">Contact Me</h1>
+                <p>chauhakr@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/krish.chauhan.1213/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/chauhan972648/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Fade141"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/krish-chauhan"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form> 
+                <br>
+                <br> 
+                <span id="msg"></span>  
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Krish. <i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVdW_HTZU1u-53kpWfNZN-HMYuLtu8YThYUAhbGKuHnDMjY20V0O9rl2ok5cI2n-br/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
